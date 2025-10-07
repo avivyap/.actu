@@ -74,7 +74,6 @@ def packets_cant_actu_en():
 
         print(colored("\n[+] To update them is ---> sudo apt upgrade x <- x is the package name\n", 'yellow'))
 
-trys = 0
 def comprobacion_en():
 
         command = subprocess.run("sudo apt update| tail -n 1", shell= True, text=True, capture_output=True)
