@@ -34,7 +34,7 @@ function actualizar(){
 }
 function todo_actu(){
 
-        echo -e "\n${purpleColour}[+]${endColour}${greenColour} Todo esta actualizado${endColor}\n"
+        echo -e "\n${purpleColour}[+]${endColour}${greenColour} Todo esta actualizado${endColour}\n"
         tput cnorm; exit 0
 }
 
